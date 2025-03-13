@@ -19,7 +19,7 @@ def health_advice():
     if bmi > 25:
         advice = "您的 BMI 较高，建议增加运动，保持健康饮食！"
     else:
-        advice = "您的 BMI 正常，继续保持良好的生活习惯！！！"
+        advice = "您的 BMI 正常，继续保持良好的生活习惯！！！！"
 
     return jsonify({"advice": advice})  # 返回 JSON 格式的数据
 
